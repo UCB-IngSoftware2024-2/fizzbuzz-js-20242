@@ -1,11 +1,13 @@
 function generarFizzBuzzDe(numero) {
-  if (esMultiplo(numero, 3) && esMultiplo(numero, 5)) {
+  const FIZZ = 3;
+  const BUZZ = 5;
+  if (esMultiplo(numero, FIZZ) && esMultiplo(numero, BUZZ)) {
     return "FizzBuzz";
   }
-  if (esMultiplo(numero, 3)) {
+  if (esMultiplo(numero, FIZZ)) {
     return "Fizz";
   }
-  if (esMultiplo(numero, 5)) {
+  if (esMultiplo(numero, BUZZ)) {
     return "Buzz";
   }
   return numero.toString();
