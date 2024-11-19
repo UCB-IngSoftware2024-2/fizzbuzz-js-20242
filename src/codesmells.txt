@@ -1,5 +1,9 @@
 OK - nombre de funcion no descriptivo (deUnNumero)
 OK - nombres de variables no descriptivas (f, fb)
 OK - muchos ifs concatenados, complejo
-- duplicacion de codigo en i%3 y lo mismo i%5
-- numeros magicos 3 y 5
+OK - duplicacion de codigo en i%3 y lo mismo i%5
+OK - numeros magicos 3 y 5
+
+- funciones que estan sueltas, no se ve la relacion directa
+- nombre funcion fizzbuzz no esta siguiedo de verbos para funciones
+- eliminar ducplicacion de inicializar clase en pruebas
