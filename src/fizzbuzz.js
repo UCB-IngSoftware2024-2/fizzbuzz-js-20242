@@ -1,11 +1,11 @@
 function generarFizzBuzzDe(numero) {
-  if (esMultiploDe3(numero) && esMultiploDe5(numero)) {
+  if (esMultiplo(numero, 3) && esMultiplo(numero, 5)) {
     return "FizzBuzz";
   }
-  if (esMultiploDe3(numero)) {
+  if (esMultiplo(numero, 3)) {
     return "Fizz";
   }
-  if (esMultiploDe5(numero)) {
+  if (esMultiplo(numero, 5)) {
     return "Buzz";
   }
   return numero.toString();
@@ -20,12 +20,8 @@ function fizzbuzz(n) {
   return aux;
 }
 
-function esMultiploDe3(numero) {
-  return numero % 3 === 0;
-}
-
-function esMultiploDe5(numero) {
-  return numero % 5 === 0;
+function esMultiplo(numero, multiplo) {
+  return numero % multiplo === 0;
 }
 
 export { generarFizzBuzzDe, fizzbuzz };

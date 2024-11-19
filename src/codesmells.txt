@@ -2,3 +2,4 @@ OK - nombre de funcion no descriptivo (deUnNumero)
 OK - nombres de variables no descriptivas (f, fb)
 OK - muchos ifs concatenados, complejo
 - duplicacion de codigo en i%3 y lo mismo i%5
+- numeros magicos 3 y 5
