@@ -1,4 +1,4 @@
-- nombre de funcion no descriptivo (deUnNumero)
+OK - nombre de funcion no descriptivo (deUnNumero)
 - nombres de variables no descriptivas (f, fb)
 - muchos ifs concatenados, complejo
 - duplicacion de codigo en i%3 y lo mismo i%5

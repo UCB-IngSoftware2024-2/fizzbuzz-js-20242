@@ -1,19 +1,14 @@
-function generarFizzBuzzDe(n) {
-  let fb = "";
-  if (n % 3 === 0 && n % 5 === 0) {
-    fb = "FizzBuzz";
-  } else {
-    if (n % 3 === 0) {
-      fb = "Fizz";
-    } else {
-      if (n % 5 === 0) {
-        fb = "Buzz";
-      } else {
-        fb = n.toString();
-      }
-    }
+function generarFizzBuzzDe(numero) {
+  if (numero % 3 === 0 && numero % 5 === 0) {
+    return "FizzBuzz";
   }
-  return fb;
+  if (numero % 3 === 0) {
+    return "Fizz";
+  }
+  if (numero % 5 === 0) {
+    return "Buzz";
+  }
+  return numero.toString();
 }
 
 function fizzbuzz(n) {
